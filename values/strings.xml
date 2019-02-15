@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Kamora</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Forum</string>
+    <string name="title_dashboard">Articles</string>
+    <string name="title_notifications">Session</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tap">Tap On The Box Below to chat with Admin when your request get approves</string>
+    <string name="channel_name">Counseling App</string>
+    <string name="forgetmessage">Password reset Link will be sent to your email adrress</string>
+</resources>
