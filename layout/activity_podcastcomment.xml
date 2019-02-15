@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorback"
+    tools:context="com.gboron.ekpei.counsellingusers.podcastcomment">
+
+    <include layout="@layout/app_bar_layout"
+        android:id="@+id/pocommentappbar"/>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:hint="comment"
+            android:background="#ffffff"
+            android:layout_marginTop="10dp"
+            android:id="@+id/articlecommedit"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/sendarticle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/sends" />
+</LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recyarticlescomm">
+
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>

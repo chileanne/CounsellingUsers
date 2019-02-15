@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gboron.ekpei.counsellingusers.ReadmoreActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/ll">
+
+    <include layout="@layout/app_bar_layout"
+        android:id="@+id/readmoreappbar"/>
+
+
+    <ImageView
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="350dp"
+        android:id="@+id/readimage"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ava"
+        android:adjustViewBounds="true"/>
+
+    <TextView
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/readarticles"
+        android:textSize="18sp"
+        android:text="this country is in state of igodomigodo"/>
+
+    <ImageView
+        android:visibility="invisible"
+        android:layout_marginTop="9dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/comment"
+        android:id="@+id/readcomment"/>
+
+        </LinearLayout>
+
+
+</ScrollView>
